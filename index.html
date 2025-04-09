@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/TT-logo-v3.png" type="image/x-icon">
+    <title>Tona Tony</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon Links -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+
+<body onload="onload();">
+
+    <!-- header -->
+    <header class="header">
+        <a href="index.html" class="logo">Tona Tony<!--<span id="logo-beta">Beta</span>--></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Hello!</a>
+            <a href="#About" style="--i:3;">About me</a>
+            <a href="#skills" style="--i:4;">Skills & Merits</a>
+            <a href="#contact" style="--i:6;">Contact me</a>
+
+            <div class="mode-box" onclick="darkmode();">
+                <!--<img  src="images/moon.png" id="modeIcon"></img>-->
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Home design -->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h1>Hello, I' m<span> Tony.</span> </h1>
+            <h3> <span class="multiple-text"></span></h3>
+
+            <p>An ambitious developer, IT technician and entrepreneur looking to make an impact.</p>
+        
+            <!--
+            <div class="btn-box">
+            <a href="#contact" class="btn" ><i class="bi bi-envelope-at-fill"></i> Get in touch</a>  
+            </div>-->       
+
+            <div class="home-sci">
+            <a href="#contact" target="_self" rel="noopener" rel="noreferrer" style="--i:6;"><i class="bi bi-envelope-at-fill"></i><!--<i class='bx bxs-envelope' ></i>--></a>
+            <a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a>
+            </div>
+        </div>
+        
+        <div class="home-img">
+            <img src="images/home-img-v1.png" alt="photo">
+        </div>
+    </section>
+
+    <!-- About me design -->
+    <section class="About" id="About">
+
+        <h2 class="heading">About <span>me.</span></h2>
+       
+        <div class="me-img">
+            <img src="images/TT-logo-v3.png" alt="icon"><span class="circle-spin"></span></img>
+        </div>
+
+        <div class="me-content">
+            <!--<h3>IT technician</h3>-->
+            <p> I am a competent and adaptable person, skilled in diverse things but primarily in IT. 
+                I am open-minded, collaborative and great at problem solving. 
+                My ability to observe, comprehend and adapt to new environments and challenges is useful in all my endeavors. 
+                My skills and competences are a the result of a combination of an academic education in Information Technology, 
+                self-taught skills and knowledge and previous experience providing different IT services. 
+                My other highlightable interests include sports(basketball), debate & public speaking, 
+                reading and  music. 
+            </p>
+        </div>
+
+        <h2>Brief Timeline</h2>
+
+        <div class="education-row">
+            <div class="education-column">
+
+                <div class="education-box">
+                   
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'>2017</i></div>
+                            <h3>Delving into IT</h3>
+                            <p>Beginning to acquire and develop IT knowledge and skills.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'>2020</i></div>
+                            <h3>Freelance</h3>
+                            <p>Started providing freelance IT services for diverse individuals and establishments.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'>2022 - Expected 2026</i></div>
+                            <h3>University Education</h3>
+                            <p>Getting academic education in Information Technology(BSc IT).</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects design-->
+        <div class="projects" id="projects">
+
+            <h2>My projects</span></h2>
+            <p>Some of my projects & work</p><br/>
+
+            <div class="proj">
+                    <div class="card card1"></div>
+
+                    <div class="card card2"></div>
+
+                    <p class="card">Developed a website for a local pharmacy. One of my earliest projects, 
+                        I also perfomed SEO for them and other configurations for an optimised online presence 
+                        in general at the time. They were very pleased with their new website and have since 
+                        offered me more work on multiple occasions.
+                    </p>
+            </div><br/>
+
+            <div class="proj" id="proj-pending">
+                <p class="card">*upcoming update...</p>
+                <!--<div class="card">
+                    <h5></h5>
+                </div>
+                <div class="card">
+                    <h5></h5>
+                </div>-->               
+            </div>
+
+            <br/><br/>
+            <div class="github-box">
+            <a href="https://github.com/TonaTony" target="_blank" rel="noopener" rel="noreferrer" class="github-btn"><i class="bi bi-github"></i> My Github</a>  
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills design-->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>Skills.</span></h2>
+
+        <div class="skills-row">
+
+            <div class="skills-column">
+                <h3 class="title">Skills & Services</h3>
+        
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3>• IT support <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Computer Networking <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Web Development & Web Design <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+    
+                        <div class="progress">
+                            <h3>• Developing Software Solutions <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+    
+                        <div class="progress">
+                            <h3>• Graphic Design, Media Editing & Production<span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Digital Marketing & Search Engine Optimization(SEO)<span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Coding & Development</h3>
+                
+                <div class="skills-box">
+                    <div class="skills-content">
+                        
+                        <div class="progress">
+                            <h3>• C & C++<span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Java <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>                        
+
+                        <div class="progress">
+                            <h3>• Python <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• HTML & CSS <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• JavaScript <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• PHP <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• MySQL <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Other skills & Proficiencies</h3>
+                
+                <div class="skills-box">
+                    <div class="skills-content">
+                        
+                        <div class="progress">
+                            <h3>• English(Proficient) <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• French(Proficient) <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Intercultural fluency, Public speaking & Debate <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>*upcoming update...<span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Certifications & Awards</h3>
+                
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3>*upcoming update...<span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me.</span></h2>
+        <p>To contact me, you can fill and submit the form below.<br/>
+        You can expect a response within 3 working days. You can also reach out to me through my socials by clicking the buttons below.</p>
+        <div class="home-sci"><a href="https://x.com/tona_tony1" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a></div>
+
+    <form action="https://formspree.io/f/mpzgqkwj" method="POST">
+            <h2>Contact Form</h2>
+            <div class="input-box">
+                <div class="input-field">
+                    <input name="Name" type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input name="Address" type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input name="Number" type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input name="Subject" type="text" placeholder="Subject / Motive" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="your message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button types="submit" class="btn">Submit</button>
+            </div>
+    </form>
+    </section>
+
+    <!-- Footer design-->
+    <footer class="footer"><br/>
+
+        <div class="footer-iconTop">
+            <a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a>
+            <a href="#contact" target="_self" rel="noopener" rel="noreferrer" style="--i:6;"><i class="bi bi-envelope-at-fill"></i><!--<i class='bx bxs-envelope' ></i>--></a>
+            <a href="#"><i class="bi bi-chevron-double-up"></i><!--<i class='bx bxs-chevrons-up' ></i>--></a>
+        </div>
+
+        <div class="footer-text">
+            <p>Tony A. Tona &copy; 2025</p>
+        </div>
+    </footer>
+    
+    <!-- typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- custom js-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
