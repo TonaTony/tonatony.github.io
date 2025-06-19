@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/TT-logo-v3.png" type="image/x-icon">
+    <link rel="icon" href="images/TT-logo.png" type="image/x-icon">
     <title>Tona Tony</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -45,7 +45,7 @@
             <h1>Hello, I' m<span> Tony.</span> </h1>
             <h3> <span class="multiple-text"></span></h3>
 
-            <p>An ambitious developer, IT technician and entrepreneur looking to make an impact.</p>
+            <p>An ambitious developer and IT technician  <!--entrepreneur-->looking to make an impact.</p>
         
             <!--
             <div class="btn-box">
@@ -69,7 +69,7 @@
         <h2 class="heading">About <span>me.</span></h2>
        
         <div class="me-img">
-            <img src="images/TT-logo-v3.png" alt="icon"><span class="circle-spin"></span></img>
+            <img src="images/TT-logo.png" alt="icon"><span class="circle-spin"></span></img>
         </div>
 
         <div class="me-content">
@@ -122,20 +122,62 @@
         <!-- Projects design-->
         <div class="projects" id="projects">
 
-            <h2>My projects: overviews</span></h2>
+            <h1>My projects: overviews</span></h1>
             <p>Some of my projects & work</p><br/>
 
-            <div class="proj">
+            <div class="proj">              
+                    <h2 class="proj-header"># My Portfolio website [HTML, CSS, JS]</h2><br/>
+
                     <div class="card card1"></div>
 
                     <div class="card card2"></div>
 
-                    <p class="card">Developed a website for a local pharmacy. One of my earliest projects, 
+                    <p><br/>This project is the current website you are viewing.</p>
+            </div><br/><br/>
+
+            <div class="proj">              
+                    <h2 class="proj-header"># A local business's first website [HTML, CSS, JS]</h2><br/>
+
+                    <div class="card card3"></div>
+
+                    <div class="card card4"></div>
+
+                    <p><br/>Developed a website for a local pharmacy. One of my earliest projects, 
                         I also perfomed SEO for them and other configurations for an optimised online presence 
                         in general at the time. They were very pleased with their website and afterwards we have 
                         worked on other projects like revamping their network infrastructure.
                     </p>
-            </div><br/>
+            </div><br/><br/>
+
+            <div class="proj">
+                    <h2 class="proj-header"># JAVA stock management system [JAVA, SQL]</h2><br/>
+
+                    <div class="card card5"></div>
+
+                    <div class="card card6"></div>
+
+                    <div class="card card7"></div>
+
+                    <div class="card card8"></div>
+
+                    <p><br/>This project is a simple Java project for a stock management system. This system includes a smooth 
+                    GUI for users to perform different operations such as sign-up, login, stock item creation, stock item update,
+                    stock item deletion, user account update, item search, displaying stock data and a database to store user 
+                    credentials and stock information. The system boasts features such as SQL injection prevention, 
+                    user account security (a user cannot temper with another user account or user details, only their own) 
+                    and more. SQL injection prevention is achieved by use of Prepared Statements while the user account 
+                    security is achieved by using a tracker to detect logged-in user and ensure they can only use the user 
+                    update option to update their own account only. The search option allows user not only to search for 
+                    a specific item by entering its full name or full item code but also to search for a category of products 
+                    with similar keywords or segments of their name or item code. Due to time limitation some options in 
+                    the system namely: Purchases, Clients and Analytics & Reports are unavailable in this initial version 
+                    because they haven’t been added yet but will be added and available in subsequent versions. There is 
+                    also a preview system as guest option to show a quick view of what the system looks like but without 
+                    any functionality because login is required to access the system functionalities.
+                    <br/>
+                    <a class="github-repo-link" href="https://github.com/TonaTony/T-Stock-Management-System-Java-project.git" target="_blank" rel="noopener" rel="noreferrer">[Project Repository]</a>
+                    </p>
+            </div><br/><br/>
 
             <div class="proj" id="proj-pending">
                 <p class="card">*upcoming update...</p>
@@ -283,6 +325,18 @@
                     <div class="skills-content">
 
                         <div class="progress">
+                            <h3>◈ Awarded an EU Erasmus+ Grant in 2023: Winter semester mobility program to the 
+                                University of Ostrava, Czechia.<span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                    </div>
+                </div><br/>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
                             <h3>*upcoming update...<span></span></h3>
                             <!--<div class="bar"><span></span></div>-->
                         </div>
@@ -316,7 +370,7 @@
 
             <div class="input-box">
                 <div class="input-field">
-                    <input name="Number" type="number" placeholder="Phone Number (Optional)">
+                    <input name="Number" type="text" placeholder="Phone Number (Optional)">
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
@@ -337,6 +391,7 @@
     </section>
 
     <!-- Footer design-->
+    <hr id="hr-footer"/>
     <footer class="footer"><br/>
 
         <div class="footer-iconTop">
