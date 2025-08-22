@@ -25,22 +25,20 @@
 
         <nav class="navbar">
             <a href="#home" style="--i:1;" class="active">Hello!</a>
-            <a href="#About" style="--i:3;">About me</a>
+            <a href="#About" style="--i:2;">About me</a>
+            <a href="#my-projects" style="--i:3;">Projects</a>
             <a href="#skills" style="--i:4;">Skills & Merits</a>
-            <a href="#contact" style="--i:6;">Contact me</a>
+            <a href="#contact" style="--i:5;">Contact me</a>
 
             <div class="mode-box" onclick="darkmode();">
                 <!--<img  src="images/moon.png" id="modeIcon"></img>-->
             </div>
 
         </nav>
-
     </header>
-
 
     <!-- Home design -->
     <section class="home" id="home">
-
         <div class="home-content">
             <h1>Hello, I' m<span> Tony.</span> </h1>
             <h3> <span class="multiple-text"></span></h3>
@@ -53,8 +51,12 @@
             </div>-->       
 
             <div class="home-sci">
-            <a href="#contact" target="_self" rel="noopener" rel="noreferrer" style="--i:6;"><i class="bi bi-envelope-at-fill"></i><!--<i class='bx bxs-envelope' ></i>--></a>
-            <a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a>
+            <a href="#contact" target="_self" rel="noopener" rel="noreferrer" style="--i:6;">
+                <i class="bi bi-envelope-at-fill"></i><!--<i class='bx bxs-envelope' ></i>-->
+            </a>
+            <a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;">
+                <i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>-->
+            </a>
             </div>
         </div>
         
@@ -65,16 +67,15 @@
 
     <!-- About me design -->
     <section class="About" id="About">
-
         <h2 class="heading">About <span>me.</span></h2>
        
-        <div class="me-img">
-            <img src="images/TT-logo.png" alt="icon"><span class="circle-spin"></span></img>
-        </div>
+        <div class="me-box">
+            <div class="me-img">
+                <img src="images/TT-logo.png" alt="icon"><span class="circle-spin"></span></img>
+            </div>
 
-        <div class="me-content">
             <!--<h3>IT technician</h3>-->
-            <p> I am a competent and adaptable person, skilled in diverse things but primarily in IT. 
+            <p class="me-content"> I am a competent and adaptable person, skilled in diverse things but primarily in IT. 
                 I am open-minded, collaborative and great at problem solving. My ability to observe,
                 comprehend and adapt to new environments and challenges is useful in achieving my objectives
                 in all my endeavors. My skills and competences are a the result of a combination of an academic 
@@ -118,11 +119,13 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Projects design-->
+    <!-- Projects design-->
+    <section class="my-projects" id="my-projects">
         <div class="projects" id="projects">
 
-            <h1>My projects: overviews</span></h1>
+            <h2 class="heading"><span>My Projects: Overviews</span></h2>
             <p>Some of my projects & work</p><br/>
 
             <div class="proj">              
@@ -132,7 +135,7 @@
 
                     <div class="card card2"></div>
 
-                    <p><br/>This project is the current website you are viewing.</p>
+                    <p><br/>This project is my portfolio website.</p>
             </div><br/><br/>
 
             <div class="proj">              
@@ -165,33 +168,17 @@
                     stock item deletion, user account update, item search, displaying stock data and a database to store user 
                     credentials and stock information. The system boasts features such as SQL injection prevention, 
                     user account security (a user cannot temper with another user account or user details, only their own) 
-                    and more. SQL injection prevention is achieved by use of Prepared Statements while the user account 
-                    security is achieved by using a tracker to detect logged-in user and ensure they can only use the user 
-                    update option to update their own account only. The search option allows user not only to search for 
-                    a specific item by entering its full name or full item code but also to search for a category of products 
-                    with similar keywords or segments of their name or item code. Due to time limitation some options in 
-                    the system namely: Purchases, Clients and Analytics & Reports are unavailable in this initial version 
-                    because they haven’t been added yet but will be added and available in subsequent versions. There is 
-                    also a preview system as guest option to show a quick view of what the system looks like but without 
-                    any functionality because login is required to access the system functionalities.
+                    and more.
                     <br/>
-                    <a class="github-repo-link" href="https://github.com/TonaTony/T-Stock-Management-System-Java-project.git" target="_blank" rel="noopener" rel="noreferrer">[Go to Project Repository]</a>
+                    <a class="github-repo-link" href="https://github.com/TonaTony/T-Stock-Management-System-Java-project.git" 
+                    target="_blank" rel="noopener" rel="noreferrer">[ Go To Project Repository ]</a>
                     </p>
             </div><br/><br/>
 
-            <div class="proj" id="proj-pending">
-                <p class="card">*upcoming update...</p>
-                <!--<div class="card">
-                    <h5></h5>
-                </div>
-                <div class="card">
-                    <h5></h5>
-                </div>-->               
-            </div>
-
             <br/><br/>
             <div class="github-box">
-            <a href="https://github.com/TonaTony" target="_blank" rel="noopener" rel="noreferrer" class="github-btn"><i class="bi bi-github"></i> My Github</a>  
+                <a href="https://github.com/TonaTony" target="_blank" rel="noopener" rel="noreferrer" class="github-btn">
+                    <i class="bi bi-github"></i> My Github</a>  
             </div>
 
         </div>
@@ -204,53 +191,18 @@
         <div class="skills-row">
 
             <div class="skills-column">
-                <h3 class="title">Skills & Services</h3>
-        
-                <div class="skills-box">
-                    <div class="skills-content">
-
-                        <div class="progress">
-                            <h3>• IT support <span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-
-                        <div class="progress">
-                            <h3>• Computer Networking <span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-
-                        <div class="progress">
-                            <h3>• Web Development & Web Design <span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-    
-                        <div class="progress">
-                            <h3>• Developing Software Solutions <span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-    
-                        <div class="progress">
-                            <h3>• Graphic Design, Media Editing & Production<span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-
-                        <div class="progress">
-                            <h3>• Digital Marketing & Search Engine Optimization(SEO)<span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills-column">
                 <h3 class="title">Coding & Development</h3>
                 
                 <div class="skills-box">
                     <div class="skills-content">
                         
                         <div class="progress">
-                            <h3>• C & C++<span></span></h3>
+                            <h3>• C <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• C++ <span></span></h3>
                             <!--<div class="bar"><span></span></div>-->
                         </div>
 
@@ -275,12 +227,72 @@
                         </div>
 
                         <div class="progress">
+                            <h3>• React <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
                             <h3>• PHP <span></span></h3>
                             <!--<div class="bar"><span></span></div>-->
                         </div>
 
                         <div class="progress">
                             <h3>• SQL <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• MongoDB(MQL) <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Skills & Services</h3>
+        
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3>• IT support <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Computer Networking <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Web Design & Web Development <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+    
+                        <div class="progress">
+                            <h3>• Developing Software Solutions <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+    
+                        <div class="progress">
+                            <h3>• Graphic Design <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Media Editing & Production <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Digital Marketing <span></span></h3>
+                            <!--<div class="bar"><span></span></div>-->
+                        </div>
+
+                        <div class="progress">
+                            <h3>• Search Engine Optimization(SEO)<span></span></h3>
                             <!--<div class="bar"><span></span></div>-->
                         </div>
 
@@ -305,12 +317,7 @@
                         </div>
 
                         <div class="progress">
-                            <h3>• Public speaking, Debate & Intercultural fluency <span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-
-                        <div class="progress">
-                            <h3>*upcoming update...<span></span></h3>
+                            <h3>• Public speaking & Debate <span></span></h3>
                             <!--<div class="bar"><span></span></div>-->
                         </div>
 
@@ -331,18 +338,8 @@
                         </div>
 
                     </div>
-                </div><br/>
-
-                <div class="skills-box">
-                    <div class="skills-content">
-
-                        <div class="progress">
-                            <h3>*upcoming update...<span></span></h3>
-                            <!--<div class="bar"><span></span></div>-->
-                        </div>
-
-                    </div>
                 </div>
+
             </div>
 
         </div>
@@ -351,9 +348,14 @@
     <!-- Contact design-->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me.</span></h2>
+
         <p>To contact me, you can fill and submit the form below.<br/>
-        You can expect a response within 3 business days. You can also reach out to me through my socials by clicking the buttons below.</p>
-        <div class="home-sci"><a href="https://x.com/tona_tony1" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a></div>
+            You can expect a response within 3 business days. You can also reach out to me through my socials by clicking 
+            the buttons below.</p>
+
+        <div class="home-sci"><a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;">
+            <i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a>
+        </div>
 
     <form action="https://formspree.io/f/mpzgqkwj" method="POST">
             <h2>Contact Form</h2>
@@ -395,8 +397,14 @@
     <footer class="footer"><br/>
 
         <div class="footer-iconTop">
-            <a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>--></a>
-            <a href="#contact" target="_self" rel="noopener" rel="noreferrer" style="--i:6;"><i class="bi bi-envelope-at-fill"></i><!--<i class='bx bxs-envelope' ></i>--></a>
+            <a href="https://x.com/tona__tony" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;">
+                <i class="bi bi-twitter-x"></i><!--<i class='bx bxl-twitter' ></i>-->
+            </a>
+
+            <a href="#contact" target="_self" rel="noopener" rel="noreferrer" style="--i:8;">
+                <i class="bi bi-envelope-at-fill"></i><!--<i class='bx bxs-envelope' ></i>-->
+            </a>
+
             <a href="#"><i class="bi bi-chevron-double-up"></i><!--<i class='bx bxs-chevrons-up' ></i>--></a>
         </div>
 
@@ -410,5 +418,4 @@
     <!-- custom js-->
     <script src="js/script.js"></script>
 </body>
-
 </html>
