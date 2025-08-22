@@ -232,7 +232,7 @@ section {
     width: 15rem;
     height: 90%;
     background: var(--text-color);
-    border: 2px solid var(--bg-color);
+    border: 2px solid var(--text-color);
     border-radius: .8rem;
     font-size: 1.8rem;
     font-weight: 700;
@@ -281,7 +281,7 @@ section {
     width: 40px;
     height: 40px;
     background: var(--text-color);
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--text-color);
     border-radius: 40%;
     font-size: 25px;
     color: var(--bg-color);
@@ -1098,4 +1098,5 @@ font-size: 30px;
         transform:  translate(-50%, -50%) rotate(360deg);
     }
 }
+
 
