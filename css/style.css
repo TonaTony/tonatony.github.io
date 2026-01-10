@@ -643,7 +643,12 @@ font-size: 30px;
 .skills-content .progress h3 {
     font-size: 1.4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.skills-content .progress h3 a {
+    text-decoration: underline;
 }
 
 .skills-content .progress h3 span {
@@ -1098,5 +1103,6 @@ font-size: 30px;
         transform:  translate(-50%, -50%) rotate(360deg);
     }
 }
+
 
 
