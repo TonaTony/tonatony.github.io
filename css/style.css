@@ -651,6 +651,14 @@ font-size: 30px;
     text-decoration: underline;
 }
 
+.skills-content .progress h3 a:hover {
+    font-weight: 850;
+}
+
+.skills-content .progress h3 a:visited {
+    color: var(--main-color);
+}
+
 .skills-content .progress h3 span {
     color: var(--main-color);
 }
@@ -1103,6 +1111,7 @@ font-size: 30px;
         transform:  translate(-50%, -50%) rotate(360deg);
     }
 }
+
 
 
 
